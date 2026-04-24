@@ -2,22 +2,23 @@
 
 <img src="public/Projetos.svg" alt="GIP Logo" height="80" />
 
-# GIP — Gestão do Investimento Público do Piauí
+# GIP Landing — Gestão do Investimento Público do Piauí
 
-**Landing page institucional da metodologia GIP, desenvolvida para a Secretaria de Planejamento do Estado do Piauí (SEPLAN-PI).**
+**Projeto desenvolvido como parte de um processo seletivo de estágio.**  
+Landing page institucional para a metodologia GIP da Secretaria de Planejamento do Estado do Piauí (SEPLAN-PI).
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
-[![Mantine](https://img.shields.io/badge/Mantine-7-339af0?logo=data:image/svg+xml;base64,)](https://mantine.dev/)
+[![Mantine](https://img.shields.io/badge/Mantine-7-339af0)](https://mantine.dev/)
 
 </div>
 
 ---
 
-## Sobre o Projeto
+## Contexto
 
-O **GIP (Gestão do Investimento Público)** é a metodologia adotada pelo Governo do Piauí para aumentar a eficiência, a transparência e a efetividade dos investimentos estaduais. Esta landing page apresenta a metodologia ao público, detalhando suas etapas, estrutura de governança e formas de classificação de projetos.
+Este projeto foi desenvolvido como desafio técnico de um processo seletivo para estágio na SEPLAN-PI. O objetivo era construir uma landing page institucional apresentando a metodologia **GIP (Gestão do Investimento Público)** — modelo adotado pelo Governo do Piauí para aumentar a eficiência, transparência e efetividade dos investimentos estaduais.
 
 ---
 
@@ -78,8 +79,8 @@ src/
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/gip-seplan.git
-cd gip-seplan
+git clone https://github.com/seu-usuario/gip-landing.git
+cd gip-landing
 
 # 2. Instale as dependências
 npm install
@@ -152,22 +153,6 @@ public/
 
 ---
 
-## Contribuindo
-
-1. Crie uma branch: `git checkout -b feature/minha-feature`
-2. Faça o commit: `git commit -m 'feat: minha feature'`
-3. Envie para a branch: `git push origin feature/minha-feature`
-4. Abra um Pull Request
-
----
-
-## Licença
-
-Este projeto é de propriedade da **Secretaria de Planejamento do Estado do Piauí (SEPLAN-PI)**.  
-Todos os direitos reservados © 2025 SEPLAN.
-
----
-
 <div align="center">
-  <sub>Desenvolvido pela equipe de TI da SEPLAN-PI</sub>
+  <sub>Desenvolvido como desafio técnico para processo seletivo de estágio — SEPLAN-PI</sub>
 </div>
