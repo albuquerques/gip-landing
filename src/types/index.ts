@@ -18,7 +18,7 @@ export interface CardData {
   variant?: CardVariant;
 }
 
-export type CardVariant = "blue" | "#EAB30826" | "orange" | "red";
+export type CardVariant = "blue" | "orange" | "red";
 
 export interface TimelineStep {
   title: string;
