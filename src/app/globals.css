@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import "@mantine/core/styles.css";
+@import "@mantine/notifications/styles.css";
+
+@theme {
+  /* configs iniciais */
+  --color-*: initial;
+  --spacing-*: initial;
+  --breakpoint-*: initial;
+
+  /* cores do design system */
+  --color-black: #231f20;
+  --color-white: #ffffff;
+  --color-primary-10: #15719a1a;
+  --color-primary-50: #edf8fd;
+  --color-primary-100: #dbedf5;
+  --color-primary-200: #b2daed;
+  --color-primary-300: #86c7e5;
+  --color-primary-400: #66b6df;
+  --color-primary-500: #3992c2;
+  --color-primary-600: #15719a;
+  --color-primary-700: #0e4f6c;
+  --color-primary-800: #003f5b;
+  --color-primary-900: #063246;
+
+  --color-yellow-100: #fef9c3;
+  --color-yellow-400: #facc15;
+
+  --color-neutral-emphasis: #18181b;
+  --color-neutral-default: #52525b;
+  --color-neutral-muted: #a1a1aa;
+  --color-foreground: #d4d4d8;
+  --color-surface: #ffffff1a;
+
+  /* espaçamentos e breakpoints */
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-11: 44px;
+  --spacing-12: 48px;
+  --spacing-14: 56px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
+  --spacing-32: 128px;
+  --spacing-42: 168px;
+  --spacing-52: 208px;
+
+  --breakpoint-xs: 320px;
+  --breakpoint-sm: 632px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+
+  /* tipografia */
+  --font-sans: var(--font-figtree);
+  --text-heading-hero: 32px;
+
+  --fs-hero: 32px;
+  --lh-hero: 1.2;
+  --ls-hero: -0.02em;
+
+  --fs-section: 22px;
+  --lh-section: 1.2;
+  --ls-section: -0.01em;
+
+  --fs-body: 16px;
+  --lh-body: 1.4;
+  --ls-body: 0em;
+}
+
+/* sm */
+@media (width >= 632px) {
+  @theme {
+    --fs-hero: 36px;
+    --fs-section: 28px;
+    --fs-body: 16px;
+  }
+}
+
+/* md */
+@media (width >= 768px) {
+  @theme {
+    --fs-hero: 36px;
+    --fs-section: 36px;
+    --fs-body: 16px;
+  }
+}
+
+/* lg */
+@media (width >= 1024px) {
+  @theme {
+    --fs-hero: 48px;
+    --fs-section: 48px;
+    --fs-body: 48px;
+  }
+}
+
+/* xl */
+@media (width >= 1280px) {
+  @theme {
+    --fs-hero: 64px;
+    --fs-section: 36px;
+    --fs-body: 18px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
