@@ -136,7 +136,6 @@ export const GOVERNANCE_CARDS: CardData[] = [
     title: "Unidade de Gestão",
     description:
       "Coordena a operacionalização do sistema, oferecendo suporte técnico às secretarias e órgãos executores.",
-    variant: "#EAB30826",
   },
   {
     icon: Scale,

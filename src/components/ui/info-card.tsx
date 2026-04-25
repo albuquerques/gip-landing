@@ -8,11 +8,6 @@ const VARIANT_STYLES: Record<CardVariant, { bg: string; icon: string; border: st
     icon: "text-blue-600",
     border: "border-l-blue-500",
   },
-  #EAB30826: {
-    bg: "bg-#EAB30826-50",
-    icon: "text-#EAB30826-600",
-    border: "border-l-#EAB30826-500",
-  },
   orange: {
     bg: "bg-orange-50",
     icon: "text-orange-600",
